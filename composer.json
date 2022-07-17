@@ -2,12 +2,6 @@
     "name": "angelocolmenares/app-salon",
     "description": "Proyecto PHP 8 MVC, SASS, Gulp",
     "type": "project",
-    "scripts": {
-        "post-install-cmd": [
-            "php artisan clear-compiled",
-            "chmod -R 775 public/"
-        ]
-    },
     "autoload": {
         "psr-4": {
             "Angelocolmenares\\AppSalon\\": "src/",
